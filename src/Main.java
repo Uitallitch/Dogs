@@ -6,7 +6,7 @@ public class Main {
         Dog bigDog = new Dog(35, "Сеттер", "Пупа", 5);
         bigDog.setName("Барбос");
         System.out.println(bigDog.getAge());
-        Cat murzik = new Cat("Мурзик", false, " мясо", "Серый");
+        Cat murzik = new Cat("Кузя", false, " мясо", "Черный");
         System.out.println(murzik.getColor());
         murzik.meow();
         System.out.println(Animal.getAnimalCount());
